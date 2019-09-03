@@ -1,0 +1,126 @@
+body { color: #333;}
+nav { background: #659EBA; }
+a { color:white; }
+.fa { font-size: 1.5rem; }
+.container .d-flex:nth-child(2) h4 { display:inline }
+.d-flex h4 { display:inline; }
+.p-2 a { text-decoration:none; }
+.recent-project-card em { color: #666;}
+.d-flex a { color: black; }
+.recent-project-card em { color:#aaa; }
+.credit-pricing-card em { font-size: .7rem; }
+.credit-pricing-card input { text-align:center; }
+.number-input button { border-radius: 30px; }
+.round-icon .fa { color:#4a4a4a; }
+.recent-survey-badge i {  font-size:.7rem; }
+
+
+.round-icon {
+  height: 100px;	
+  width: 100px;	
+  border-radius: 70px;	
+  background-color:#f5f5f5;	
+  display:block;
+}
+
+.round-icon i {
+  position:relative;
+  top: 25px;
+  left: 25px;
+  font-size:3rem;
+  color: #aaa;
+}
+
+hr { 
+  border: none;
+  height: 1px;
+  color: #bbb; 
+  background-color: #bbb; 
+}
+
+.rectangle {
+  height: 84px;	
+  width: 142px; 
+  color:white;
+}
+
+.rectangle-left {		
+  border-radius: 10px 0 0 10px;	
+  margin-right:.2rem;
+}
+
+.rectangle-right {	border-radius: 0 10px 10px 0;}
+
+.bg-yellow { background-color: #F8C124; }
+.bg-green { background-color: #7BBA52; }
+.bg-blue { 	background-color: #659EBA; }
+.bg-grey { background-color: #9B9B9B; }
+.bg-darkgrey { background-color: #4a4a4a; }
+
+.recent-project-card {	
+  height: 172px;	
+  width: 940px;	
+  border-radius: 10px;	
+  background-color: #FFFFFF;	
+  box-shadow: 0 2px 9px 0 rgba(0,0,0,0.18);
+}
+
+.horizontal-banner {
+  border-radius: 10px 0px 0px 10px;
+  position:relative;
+  left:0; 
+  height:172px;
+  margin-right:1.5rem;
+}
+
+.banner-title { 
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  height:20px; 
+  position:relative; 
+  top:70px; 
+  color:#eee;
+}
+
+.recent-project-card .fa-circle { 
+  font-size: .7rem; 
+  padding-top:.5rem; 
+  padding-left: 1rem; 
+  padding-right:1rem; 
+}
+
+.credit-pricing-card {
+  height: 444px;	
+  width: 293px;	 
+  background-color: #FFFFFF;	
+  box-shadow: 0 2px 9px 0 rgba(0,0,0,0.18);
+  border-radius:10px;
+}
+
+.credit-pricing-footer { 
+  position:relative; 
+  bottom:-20px;
+  height: 45px;	
+  width: 293px;	
+  border-radius: 0 0 10px 10px;	
+  background-color: #F5F5F5;
+}
+
+.recent-survey-badge {
+  height: 30px;	
+  width: 132px;	
+  border: 1px solid #D8D8D8;	
+  border-radius: 5px;
+  font-size:.8rem;
+  padding-top:.2rem;
+}
+
+.recent-project-status { 
+  position:relative;
+  font-size:.8rem; 
+  top:4px;
+}

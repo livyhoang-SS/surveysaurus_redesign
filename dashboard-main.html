@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>SurveySaurus</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="lib/bootstrap-4.0.0/dist/css/bootstrap.min.css" >
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+
+	<nav class="navbar navbar-dark navbar-expand-lg">
+		<a class="navbar-brand" href="#"><img src="assets/images/logo.png" title="Surveysaurus" class="img-fluid" /></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="#">My Projects</a>
+				<a class="nav-item nav-link" href="#">Account</a>
+			</div>
+		</div>
+	</nav>
+
+	<!-- User Greeting & Total Survey Count -->
+	<div class="container">
+		<div class="d-flex justify-content-end">
+			<div class="d-flex flex-column p-2 align-items-end">
+				<div class="p-2">
+					<h3>Welcome, Janice!</h3>
+				</div>
+				<div class="p-2">
+					<h5>Total Surveys: 125</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Begin New Project  -->
+	<div class="container">
+
+		<!-- Header & Action Items -->
+		<div class="d-flex justify-content-between my-5">
+			<div class="p-2">
+				<i class="fa fa-plus-square pr-2"></i> <h4>Begin New Project</h4>
+			</div>
+			<div class="p-2">
+				<div class="btn-group" role="group">
+					<button type="button" class="btn btn-light btn-sm">Pre-Built Surveys</button>
+					<button type="button" class="btn btn-success btn-sm">Blank Projects</button>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Project Type Buttons -->
+		<div class="d-flex justify-content-between my-5">
+
+			<!-- Basic Survey -->
+			<div class="project-item">
+				<div class="d-flex flex-column align-items-center">
+					<div class="round-icon">
+						<i class="fa fa-plus-square"></i>
+					</div>
+					<h6>Basic Survey</h6>
+				</div>
+			</div>
+
+			<!-- 360 Degree Survey -->
+			<div class="project-item">
+				<div class="d-flex flex-column align-items-center">
+					<div class="round-icon">
+						<i class="fa fa-rotate-right"></i>
+					</div>
+					<h6>360 Degree Survey</h6>
+				</div>
+			</div>
+
+			<!-- Reference Check -->
+			<div class="project-item">
+				<div class="d-flex flex-column align-items-center">
+					<div class="round-icon">
+						<i class="fa fa-clipboard white"></i>
+					</div>
+					<h6>Reference Check</h6>
+				</div>
+			</div>
+
+			<!-- Culture 20/20 -->
+			<div class="project-item">
+				<div class="d-flex flex-column align-items-center">
+					<div class="round-icon">
+						<i class="fa fa-users white"></i>
+					</div>
+					<h6>Culture 20/20</h6>
+				</div>
+			</div>	
+
+			<!-- ROI Assessment -->
+			<div class="project-item">
+				<div class="d-flex flex-column align-items-center">
+					<div class="round-icon">
+						<i class="fa fa-line-chart white"></i>
+					</div>
+					<h6>ROI Assessment</h6>
+				</div>
+			</div>
+
+			<!-- Team Effectivness -->
+			<div class="project-item">
+				<div class="d-flex flex-column align-items-center">
+					<div class="round-icon">
+						<i class="fa fa-plus-square white"></i>
+					</div>
+					<h6>Team Effectiveness</h6>
+				</div>
+			</div>	
+		</div>
+
+		<hr /> <!-- Separator  -->
+
+	</div>
+
+	<!-- Project Activity -->
+	<div class="container my-5">
+
+		<!-- Header -->
+		<div class="d-flex justify-content-between">
+			<div class="p-2">
+				<i class="fa fa-pie-chart pr-2"></i> <h4>Project Activity</h4>
+			</div>
+			<div class="p-2">
+				<a href="#">Manage all projects > </a>
+			</div>
+		</div>
+
+		<!-- Projects Status-->
+		<div class="d-flex justify-content-between mt-5">
+
+			<!-- Open Projects-->
+			<div class="flex-column">
+				<h6 class="mb-4">Open Projects</h6>
+				<div class="project-info-panel d-flex">
+					<div class="rectangle rectangle-left bg-yellow">
+						<div class="d-flex justify-content-center align-content-center">
+							<div class="p-2 project-metrics text-center">
+								<p>Drafts</p>
+								<h4>5</h4>
+							</div>
+						</div>
+					</div>
+					<div class="rectangle rectangle-right bg-green">
+						<div class="d-flex justify-content-center align-content-center">
+							<div class="p-2 project-metrics text-center">
+								<p>Active</p>
+								<h4>15</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Finished Projects-->
+			<div class="flex-column">
+				<h6 class="mb-4">Finished Projects</h6>
+				<div class="project-info-panel d-flex">
+					<div class="rectangle rectangle-left bg-blue">
+						<div class="d-flex justify-content-center align-content-center">
+							<div class="p-2 project-metrics text-center">
+								<p>Completed</p>
+								<h4>11</h4>
+							</div>
+						</div>
+					</div>
+					<div class="rectangle rectangle-right bg-grey">
+						<div class="d-flex justify-content-center align-content-center">
+							<div class="p-2 project-metrics text-center">
+								<p>Archived</p>
+								<h4>21</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- On-The-Shelf Projects -->
+			<div class="flex-column">
+				<h6 class="mb-4">On-The-Shelf</h6>
+				<div class="project-info-panel d-flex">
+					<div class="rectangle rectangle-left bg-darkgrey">
+						<div class="d-flex justify-content-center align-content-center">
+							<div class="p-2 project-metrics text-center">
+								<p>Templates</p>
+								<h4>2</h4>
+							</div>
+						</div>
+					</div>
+					<div class="rectangle rectangle-right bg-darkgrey">
+						<div class="d-flex justify-content-center align-content-center">
+							<div class="p-2 project-metrics text-center">
+								<p>Competencies</p>
+								<h4>19</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Recent Projects -->
+		<div class="d-flex mt-5">
+			<div class="flex-column">
+				<h6 class="mb-4">Recent Projects</h6>
+
+				<!-- Recent Draft Card -->
+				<div class="d-flex recent-project-card mt-4">
+
+					<div class="horizontal-banner bg-yellow">
+						<p class="banner-title">Draft</p>
+					</div>
+	
+					<div class="d-flex flex-column mt-4">
+						<div class="d-flex">
+								<h5>Engagement Routines</h5>
+								<i class="fa fa-circle"></i>
+								<em>Dr. Phillips Center</em>
+						</div>
+
+						<div class="d-flex mt-2">
+				
+							<div class="recent-survey-badge text-center mr-3">
+								<i class="fa fa-users pr-2"></i>Culture 20/20
+							</div>
+	
+							<div class="recent-project-status mr-3"><strong class="pr-2">Rater Status:</strong>0/150</div>
+							<div class="recent-project-status"><strong class="pr-2">Due Date:</strong>1/1/2020</div>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<script src="lib/jquery-3.2.1.slim.min.js"></script>
+	<script src="lib/popper.min.js"></script>
+	<script src="lib/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
